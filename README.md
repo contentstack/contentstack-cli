@@ -1,6 +1,6 @@
 [![Built.io Contentstack](https://contentstackdocs.built.io/static/images/logo.png)](https://www.built.io/products/contentstack/overview)
 
-# Built.io Contentstack Command Line Interface(CLI).
+# A CLI utilities for Built.io Contentstack
 
 ## Installation
 
@@ -28,7 +28,7 @@ Built.io Contentstack CLI comes with handy commands which helps to achieve the s
 	       ***
 	      **
 
-Built.io Contentstack Command Line Interface 1.0.2
+Built.io Contentstack Command Line Interface 1.0.3
 
 Usage: contentstack [command]
 
@@ -94,3 +94,4 @@ Once the plugin is created, you can activate it in config/all.js file.
 
 ### License
 Copyright © 2012-2016 [Built.io](https://www.built.io/). All Rights Reserved.
+=======
