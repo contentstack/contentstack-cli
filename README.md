@@ -4,7 +4,7 @@
 
 ## Installation
 
-**Note:  Please make sure that contentstack-express version 1.0.x is installed..**
+**Note:  Please make sure that contentstack-express version 1.0.x is installed.**
 
 Run the following command in a Terminal or Command Prompt to globally install the latest version of Built.io Contentstack CLI on your system:
 
