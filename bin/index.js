@@ -64,7 +64,7 @@ function optionConversion(options) {
         environment: options.env,
         language: options.lang
     };
-    options.language = options._events.language = _options.language;
+    options.language = options._events.language = true;
     options.environment = options._events.environment = _options.environment;
     delete options.env;
     delete options.lang;
@@ -74,6 +74,7 @@ function optionConversion(options) {
 }
 // printing the Built.io Contentstack Animation
 console.log('\n'+messages+'\x1b[0m\n');
+console.log('\x1b[31m Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.\x1b[0m\n');
 
 program
     .version(pkg.version || "0.1.x");
@@ -129,6 +130,7 @@ program
 program
     .command('sync')
     .option('-e, --env <environment>', 'Enter the environment of which the content needs to be synchronized', undefined)
+    .option('-t, --type [type]', 'Enter a type of content to include in publishing [content_types/assets/all]', /(content_types|assets|all)/, undefined)
     .option('-l, --lang [language]', 'Enter the language of which the content needs to be synchronized', undefined)
     .option('-c, --content_types [content_types]', 'Enter the content types to be included in synchronization (comma(",") seperated)', list, undefined)
     .option('-s, --skip_content_types [skip_content_types]', 'Enter the content types to be excluded from synchronization (comma(",") seperated)', list, undefined)
@@ -145,9 +147,7 @@ program
             // running the synchronization in domain
             context.run(function() {
                 var _options = optionConversion(options);
-                console.error(_options);
                 _options = helper.merge(getDefaultOptions(options, options._events), _options);
-                console.error(_options);
                 var sync = require('./../lib/sync');
                 new sync(_options);
             });
@@ -236,7 +236,7 @@ if (program.args.length == 0) {
         , '\nOptions:'
         , '    -h, --help     output usage information'
         , '    -V, --version  output the version number'
-        , '\nDocumentation can be found at http://contentstackdocs.built.io/'
+        , '\nDocumentation can be found at https://contentstackdocs.built.io/'
     ].join('\n');
     console.log(message);
     process.exit(1);

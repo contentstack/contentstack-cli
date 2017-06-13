@@ -1,6 +1,6 @@
 {
   "name": "contentstack-cli",
-  "version": "1.0.3",
+  "version": "3.0.1",
   "description": "Built.io Contentstack Command Line Interface(CLI).",
   "main": "index.js",
   "bin": {
@@ -15,14 +15,46 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "1.5.2",
+    "async": "2.1.4",
     "commander": "2.9.0",
     "lodash": "3.10.1",
     "mkdirp": "0.5.1",
     "ncp": "2.0.0",
     "prompt": "1.0.0",
     "q": "1.4.1",
-    "request": "2.72.0",
+    "request": "2.79.0",
     "resolve": "1.1.7"
-  }
+  },
+  "gitHead": "dbb1c0d1db521546f8a39059a0f1e4001c007881",
+  "_id": "contentstack-cli@3.0.0",
+  "scripts": {},
+  "_shasum": "5df6f40d007af1a13c00629afd7e05119928eabd",
+  "_from": "contentstack-cli@*",
+  "_npmVersion": "2.15.0",
+  "_nodeVersion": "4.4.2",
+  "_npmUser": {
+    "name": "hiteshbal",
+    "email": "hitesh.baldaniya@raweng.com"
+  },
+  "dist": {
+    "shasum": "5df6f40d007af1a13c00629afd7e05119928eabd",
+    "tarball": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "hiteshbal",
+      "email": "hitesh.baldaniya@raweng.com"
+    },
+    {
+      "name": "mynk",
+      "email": "mayank@raweng.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/contentstack-cli-3.0.0.tgz_1466413733832_0.051740668481215835"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.0.tgz",
+  "readme": "ERROR: No README data found!"
 }

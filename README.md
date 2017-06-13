@@ -1,8 +1,9 @@
 [![Built.io Contentstack](https://contentstackdocs.built.io/static/images/logo.png)](https://www.built.io/products/contentstack/overview)
 
-# A CLI utilities for Built.io Contentstack
+# Built.io Contentstack Command Line Interface(CLI).
 
 ## Installation
+**Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.**
 
 Run the following command in a Terminal or Command Prompt to globally install the latest version of Built.io Contentstack CLI on your system:
 
@@ -27,8 +28,10 @@ Built.io Contentstack CLI comes with handy commands which helps to achieve the s
 	        ****
 	       ***
 	      **
+	      
+Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
 
-Built.io Contentstack Command Line Interface 1.0.3
+Built.io Contentstack Command Line Interface 3.0.0
 
 Usage: contentstack [command]
 
@@ -90,8 +93,7 @@ Once the plugin is created, you can activate it in config/all.js file.
 
 ## Links
  - [Website](https://www.built.io/products/contentstack/overview)
- - [Official Documentation](http://contentstackdocs.built.io/developer/javascript/quickstart)
+ - [Official Documentation](https://contentstackdocs.built.io/developer/web/framework-cli)
 
 ### License
-Copyright © 2012-2016 [Built.io](https://www.built.io/). All Rights Reserved.
-=======
+Copyright © 2012-2017 [Built.io](https://www.built.io/). All Rights Reserved.
