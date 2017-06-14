@@ -9,7 +9,7 @@
 Run the following command in a Terminal or Command Prompt to globally install the latest version of Built.io Contentstack CLI on your system:
 
 ```bash
-$ npm install -g contentstack-cli
+$ npm install -g contentstack-cli@1.x
 ```
 *You might need administrator privileges to perform this installation.*
 
@@ -30,7 +30,7 @@ Built.io Contentstack CLI comes with handy commands which helps to achieve the s
 	       ***
 	      **
 
-Built.io Contentstack Command Line Interface 1.0.2
+Built.io Contentstack Command Line Interface 1.0.5
 
 Usage: contentstack [command]
 

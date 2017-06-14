@@ -74,7 +74,7 @@ function optionConversion(options) {
 }
 // printing the Built.io Contentstack Animation
 console.log('\n'+messages+'\x1b[0m\n');
-console.log('\x1b[31m Note: Please make sure that contentstack-express version 1.0.x is installed.\x1b[0m\n');
+console.log('\x1b[31m Note: Please make sure that contentstack-express version 1.x is installed.\x1b[0m\n');
 
 program
     .version(pkg.version || "0.1.x");
