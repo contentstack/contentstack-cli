@@ -1,19 +1,57 @@
 {
-  "name": "contentstack-cli",
-  "version": "3.0.2",
-  "description": "Built.io Contentstack Command Line Interface(CLI).",
-  "main": "index.js",
-  "bin": {
-    "contentstack": "./bin/index.js"
+  "_args": [
+    [
+      {
+        "raw": "contentstack-cli",
+        "scope": null,
+        "escapedName": "contentstack-cli",
+        "name": "contentstack-cli",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\test\\built-io-docs"
+    ]
+  ],
+  "_from": "contentstack-cli@latest",
+  "_id": "contentstack-cli@3.0.2",
+  "_inCache": true,
+  "_location": "/contentstack-cli",
+  "_nodeVersion": "4.4.7",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/contentstack-cli-3.0.2.tgz_1497933476999_0.6207987228408456"
   },
+  "_npmUser": {
+    "name": "hiteshbal",
+    "email": "hitesh.baldaniya@raweng.com"
+  },
+  "_npmVersion": "2.15.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "contentstack-cli",
+    "scope": null,
+    "escapedName": "contentstack-cli",
+    "name": "contentstack-cli",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.2.tgz",
+  "_shasum": "c542ea7881574697c09de0a563cc0cb686c4f37e",
+  "_shrinkwrap": null,
+  "_spec": "contentstack-cli",
+  "_where": "D:\\test\\built-io-docs",
   "author": {
     "name": "Built.io Contentstack",
     "url": "https://www.built.io/"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "bin": {
+    "contentstack": "./bin/index.js"
   },
-  "license": "MIT",
   "dependencies": {
     "async": "2.1.4",
     "commander": "2.9.0",
@@ -25,21 +63,19 @@
     "request": "2.79.0",
     "resolve": "1.1.7"
   },
-  "gitHead": "dbb1c0d1db521546f8a39059a0f1e4001c007881",
-  "_id": "contentstack-cli@3.0.0",
-  "scripts": {},
-  "_shasum": "5df6f40d007af1a13c00629afd7e05119928eabd",
-  "_from": "contentstack-cli@*",
-  "_npmVersion": "2.15.0",
-  "_nodeVersion": "4.4.2",
-  "_npmUser": {
-    "name": "hiteshbal",
-    "email": "hitesh.baldaniya@raweng.com"
-  },
+  "description": "Built.io Contentstack Command Line Interface(CLI).",
+  "devDependencies": {},
+  "directories": {},
   "dist": {
-    "shasum": "5df6f40d007af1a13c00629afd7e05119928eabd",
-    "tarball": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.0.tgz"
+    "shasum": "c542ea7881574697c09de0a563cc0cb686c4f37e",
+    "tarball": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.2.tgz"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "dbb1c0d1db521546f8a39059a0f1e4001c007881",
+  "license": "MIT",
+  "main": "index.js",
   "maintainers": [
     {
       "name": "hiteshbal",
@@ -50,11 +86,9 @@
       "email": "mayank@raweng.com"
     }
   ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/contentstack-cli-3.0.0.tgz_1466413733832_0.051740668481215835"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.0.tgz",
-  "readme": "ERROR: No README data found!"
+  "name": "contentstack-cli",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "3.0.2"
 }
