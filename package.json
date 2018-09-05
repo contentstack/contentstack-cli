@@ -1,53 +1,7 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "contentstack-cli",
-        "scope": null,
-        "escapedName": "contentstack-cli",
-        "name": "contentstack-cli",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "D:\\test\\built-io-docs"
-    ]
-  ],
-  "_from": "contentstack-cli@latest",
-  "_id": "contentstack-cli@3.0.2",
-  "_inCache": true,
-  "_location": "/contentstack-cli",
-  "_nodeVersion": "4.4.7",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/contentstack-cli-3.0.2.tgz_1497933476999_0.6207987228408456"
-  },
-  "_npmUser": {
-    "name": "hiteshbal",
-    "email": "hitesh.baldaniya@raweng.com"
-  },
-  "_npmVersion": "2.15.8",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "contentstack-cli",
-    "scope": null,
-    "escapedName": "contentstack-cli",
-    "name": "contentstack-cli",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.2.tgz",
-  "_shasum": "c542ea7881574697c09de0a563cc0cb686c4f37e",
-  "_shrinkwrap": null,
-  "_spec": "contentstack-cli",
-  "_where": "D:\\test\\built-io-docs",
   "author": {
-    "name": "Built.io Contentstack",
-    "url": "https://www.built.io/"
+    "name": "Contentstack",
+    "url": "https://www.contentstack.com/"
   },
   "bin": {
     "contentstack": "./bin/index.js"
@@ -63,17 +17,10 @@
     "request": "2.79.0",
     "resolve": "1.1.7"
   },
-  "description": "Built.io Contentstack Command Line Interface(CLI).",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "c542ea7881574697c09de0a563cc0cb686c4f37e",
-    "tarball": "https://registry.npmjs.org/contentstack-cli/-/contentstack-cli-3.0.2.tgz"
-  },
+  "description": "Contentstack Command Line Interface(CLI).",
   "engines": {
     "node": ">=0.10.0"
   },
-  "gitHead": "dbb1c0d1db521546f8a39059a0f1e4001c007881",
   "license": "MIT",
   "main": "index.js",
   "maintainers": [
@@ -87,8 +34,6 @@
     }
   ],
   "name": "contentstack-cli",
-  "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
-  "scripts": {},
-  "version": "3.0.4"
+  "version": "3.0.5"
 }
