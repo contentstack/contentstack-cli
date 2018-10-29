@@ -3,8 +3,8 @@
 # Contentstack command line interface(cli).
 
 ## Installation
-**Note: This version of Contentstack CLI can be used only for v3 stacks.
-Use cli v1.x, for v2 stacks.**
+
+**Note**: This version of Contentstack CLI can be used only for v3 stacks. Use cli v1.x, for v2 stacks.
 
 Run the following command in a Terminal or Command Prompt to globally install the latest version of Contentstack CLI on your system:
 

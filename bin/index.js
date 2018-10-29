@@ -22,9 +22,9 @@ var messages = [
         '\t     \x1b[33m**'
         , '   \x1b[33m***'
         , ' \x1b[33m****'
-        , '\x1b[33m***** \x1b[31m**          \x1b[36m.-----------------------.'
-        , ' \x1b[33m****  \x1b[31m***        \x1b[36m|     Contentstack!     |'
-        , '   \x1b[33m***  \x1b[31m****      \x1b[36m\'-----------------------\''
+        , '\x1b[33m***** \x1b[31m**          \x1b[36m.----------------------.'
+        , ' \x1b[33m****  \x1b[31m***        \x1b[36m|     Contentstack     |'
+        , '   \x1b[33m***  \x1b[31m****      \x1b[36m\'----------------------\''
         , '     \x1b[33m** \x1b[31m*****     '
         , '        \x1b[31m****'
         , '       \x1b[31m***'
@@ -74,7 +74,7 @@ function optionConversion(options) {
 }
 // printing the Contentstack Animation
 console.log('\n'+messages+'\x1b[0m\n');
-console.log('\x1b[31m Note: This version of Contentstack cli can be used only for v3 stacks.\nUse cli v1.x, for v2 stacks.\x1b[0m\n');
+console.log('\x1b[31m Note: This version of Contentstack cli can be used only for v3 stacks. Use cli v1.x, for v2 stacks.\x1b[0m\n');
 
 program
     .version(pkg.version || "0.1.x");
