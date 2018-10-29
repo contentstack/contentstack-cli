@@ -97,4 +97,4 @@ Once the plugin is created, you can activate it in config/all.js file.
  - [Official Documentation](https://contentstackdocs.built.io/developer/web/framework-cli)
 
 ### License
-Copyright © 2012-2017 [Built.io](https://www.built.io/). All Rights Reserved.
+Copyright © 2018 [Contentstack](https://www.contentstack.com/). All Rights Reserved.
