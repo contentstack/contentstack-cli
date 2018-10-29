@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /*!
  * contentstack-cli
- * copyright (c) Built.io Contentstack
+ * copyright (c) Contentstack
  * MIT Licensed
  */
 
@@ -22,9 +22,9 @@ var messages = [
         '\t     \x1b[33m**'
         , '   \x1b[33m***'
         , ' \x1b[33m****'
-        , '\x1b[33m***** \x1b[31m**          \x1b[36m.----------------------------------.'
-        , ' \x1b[33m****  \x1b[31m***        \x1b[36m|     Built.io Contentstack!       |'
-        , '   \x1b[33m***  \x1b[31m****      \x1b[36m\'----------------------------------\''
+        , '\x1b[33m***** \x1b[31m**          \x1b[36m.-----------------------.'
+        , ' \x1b[33m****  \x1b[31m***        \x1b[36m|     Contentstack!     |'
+        , '   \x1b[33m***  \x1b[31m****      \x1b[36m\'-----------------------\''
         , '     \x1b[33m** \x1b[31m*****     '
         , '        \x1b[31m****'
         , '       \x1b[31m***'
@@ -72,9 +72,9 @@ function optionConversion(options) {
     delete options._events.lang;
     return _options;
 }
-// printing the Built.io Contentstack Animation
+// printing the Contentstack Animation
 console.log('\n'+messages+'\x1b[0m\n');
-console.log('\x1b[31m Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.\x1b[0m\n');
+console.log('\x1b[31m Note: This version of Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.\x1b[0m\n');
 
 program
     .version(pkg.version || "0.1.x");
@@ -85,7 +85,7 @@ program
     .option('-a, --api_key <api_key>', 'Enter the stack "API KEY" to connect')
     .option('-c, --token <access_token>', 'Enter the "Access Token" relative to "API KEY"')
     .option('-t, --template [template]', 'Enter the template', 'basic')
-    .description('Connect to an existing stack in Built.io Contentstack.')
+    .description('Connect to an existing stack in Contentstack.')
     .action(function(directory, api_key, access_token, template, options) {
         setImmediate(function () {
             //creating the domain to execute in safe mode
@@ -161,7 +161,7 @@ program
 program
     .command('publish')
     .alias('bulk-publish')
-    .option('-u, --username <username>', 'Email id registered on Built.io Contentstack', undefined)
+    .option('-u, --username <username>', 'Email id registered on Contentstack', undefined)
     .option('-p, --password <password>', 'Password', undefined)
     .option('-e, --env <environment>', 'Environment/s where you want to publish (comma(",") seperated)', list, undefined)
     .option('-b, --backup [backup]', 'Enter backup option', /(yes|no|y|n)/i, undefined)
@@ -193,7 +193,7 @@ program
 program
     .command('unpublish')
     .alias('bulk-unpublish')
-    .option('-u, --username <username>', 'Email id registered on Built.io Contentstack', undefined)
+    .option('-u, --username <username>', 'Email id registered on Contentstack', undefined)
     .option('-p, --password <password>', 'Password', undefined)
     .option('-e, --env <environment>', 'Environment/s where you want to unpublish (comma(",") seperated)', list, undefined)
     .option('-b, --backup [backup]', 'Enter backup option', /(yes|no|y|n)/i, undefined)
@@ -225,10 +225,10 @@ program.parse(process.argv);
 // show help by default if no args
 if (program.args.length == 0) {
     var message = [
-        'Built.io Contentstack Command Line Interface '+pkg.version
+        'Contentstack Command Line Interface '+pkg.version
         , '\nUsage: contentstack [command]'
         , '\nCommands:'
-        , '    connect            Connect to an existing stack in Built.io Contentstack'
+        , '    connect            Connect to an existing stack in Contentstack'
         , '    sync               Synchronize the previously published entries in the current application'
         , '    publish            Publish content-types/assets/both on specified environment'
         , '    unpublish          Unpublish content-types/assets/both on specified environment'

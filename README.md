@@ -1,11 +1,11 @@
-[![Built.io Contentstack](https://contentstackdocs.built.io/static/images/logo.png)](https://www.built.io/products/contentstack/overview)
+[![Contentstack](https://contentstackdocs.built.io/static/images/logo.png)](https://www.built.io/products/contentstack/overview)
 
-# Built.io Contentstack Command Line Interface(CLI).
+# Contentstack Command Line Interface(CLI).
 
 ## Installation
-**Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.**
+**Note: This version of Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.**
 
-Run the following command in a Terminal or Command Prompt to globally install the latest version of Built.io Contentstack CLI on your system:
+Run the following command in a Terminal or Command Prompt to globally install the latest version of Contentstack CLI on your system:
 
 ```bash
 $ npm install -g contentstack-cli
@@ -14,29 +14,29 @@ $ npm install -g contentstack-cli
 
 ## Commands in CLI
 
-Built.io Contentstack CLI comes with handy commands which helps to achieve the support work for the contentstack-express like publishing, unpublishing, synchronizing the data, connecting existing stacks etc.
+Contentstack CLI comes with handy commands which helps to achieve the support work for the contentstack-express like publishing, unpublishing, synchronizing the data, connecting existing stacks etc.
 
 ```
 
 	     **
 	   ***
 	 ****
-	***** **          .----------------------------------.
-	 ****  ***        |     Built.io Contentstack!       |
-	   ***  ****      '----------------------------------'
+	***** **          .-----------------------.
+	 ****  ***        |     Contentstack!     |
+	   ***  ****      '-----------------------'
 	     ** *****
 	        ****
 	       ***
 	      **
 	      
-Note: This version of Built.io Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
+Note: This version of Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
 
-Built.io Contentstack Command Line Interface 3.0.0
+Contentstack Command Line Interface 3.0.0
 
 Usage: contentstack [command]
 
 Commands:
-    connect            Connect to an existing stack in Built.io Contentstack
+    connect            Connect to an existing stack in Contentstack
     sync               Synchronize all the published content locally
     publish            Publish content-types/assets/both on specified environment
     unpublish          Unpublish content-types/assets/both on specified environment
