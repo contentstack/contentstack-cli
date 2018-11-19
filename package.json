@@ -8,13 +8,14 @@
   },
   "dependencies": {
     "async": "2.1.4",
+    "chalk": "^2.4.1",
     "commander": "2.9.0",
-    "lodash": "^4.17.11",
+    "lodash": "4.17.11",
     "mkdirp": "0.5.1",
     "ncp": "2.0.0",
     "prompt": "1.0.0",
     "q": "1.4.1",
-    "request": "^2.88.0",
+    "request": "2.88.0",
     "resolve": "1.1.7"
   },
   "description": "Contentstack Command Line Interface(CLI).",
@@ -23,17 +24,8 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "hiteshbal",
-      "email": "hitesh.baldaniya@raweng.com"
-    },
-    {
-      "name": "mynk",
-      "email": "mayank@raweng.com"
-    }
-  ],
+  "maintainers": [],
   "name": "contentstack-cli",
   "readme": "ERROR: No README data found!",
-  "version": "3.0.5"
+  "version": "3.0.6"
 }
