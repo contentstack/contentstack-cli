@@ -22,10 +22,10 @@ var messages = [
         '\t     \x1b[33m**'
         , '   \x1b[33m***'
         , ' \x1b[33m****'
-        , '\x1b[33m***** \x1b[31m**          \x1b[36m.----------------------.'
-        , ' \x1b[33m****  \x1b[31m***        \x1b[36m|     Contentstack     |'
-        , '   \x1b[33m***  \x1b[31m****      \x1b[36m\'----------------------\''
-        , '     \x1b[33m** \x1b[31m*****     '
+        , '\x1b[33m***** \x1b[31m**'
+        , ' \x1b[33m****  \x1b[31m***        Contentstack'
+        , '   \x1b[33m***  \x1b[31m****'
+        , '     \x1b[33m** \x1b[31m*****'
         , '        \x1b[31m****'
         , '       \x1b[31m***'
         , '      \x1b[31m**'
@@ -90,19 +90,22 @@ program
         setImmediate(function () {
             //creating the domain to execute in safe mode
             var context = domain.create();
-
             // error handling in domain
             context.on('error', errorHandler);
 
             // running the connect in domain
             context.run(function() {
-                var connect = require('./../lib/connect'),
-                    args = {
-                        directory: directory || options.dir,
-                        api_key: api_key || options.api_key,
-                        access_token: access_token || options.token,
-                        template: "basic" || options.template
-                    };
+                try {
+                    var connect = require('../lib/connect');
+                } catch (error) {
+                    console.error(error)
+                }
+                var args = {
+                    directory: directory || options.dir,
+                    api_key: api_key || options.api_key,
+                    access_token: access_token || options.token,
+                    template: 'basic' || options.template
+                };
                 new connect(args);
             });
         });
@@ -180,7 +183,11 @@ program
             context.run(function() {
                 var _options = optionConversion(options);
                 _options = helper.merge(getDefaultOptions(options, options._events), _options);
-                var publish = require('./../lib/publish');
+                try {
+                    var publish = require('./../lib/publish');
+                } catch (error) {
+                    console.error(error)
+                }
                 new publish('publish', _options);
             });
         });
@@ -238,7 +245,6 @@ if (program.args.length == 0) {
         , '    -V, --version  output the version number'
         , '\nDocumentation can be found at https://contentstackdocs.built.io/'
     ].join('\n');
-    console.log(message);
     process.exit(1);
 }
 /*
