@@ -73,7 +73,7 @@ function optionConversion(options) {
     return _options;
 }
 // printing the Contentstack Animation
-console.log('\n'+messages+'\x1b[0m\n');
+console.log('\n' + messages + '\x1b[0m\n');
 console.log('\x1b[31m Note: This version of Contentstack cli can be used only for v3 stacks. Use cli v1.x, for v2 stacks.\x1b[0m\n');
 
 program
