@@ -22,9 +22,9 @@ Contentstack CLI comes with handy commands which helps to achieve the support wo
 	     **
 	   ***
 	 ****
-	***** **          .-----------------------.
-	 ****  ***        |     Contentstack!     |
-	   ***  ****      '-----------------------'
+	***** **          
+	 ****  ***             Contentstack!     
+	   ***  ****      
 	     ** *****
 	        ****
 	       ***
