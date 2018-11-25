@@ -17,19 +17,19 @@ $ npm install -g contentstack-cli
 
 Contentstack CLI comes with handy commands which helps to achieve the support work for the contentstack-express like publishing, unpublishing, synchronizing the data, connecting existing stacks etc.
 
-```
+```bash
 
 	     **
 	   ***
 	 ****
-	***** **          
-	 ****  ***             Contentstack!     
-	   ***  ****      
+	***** **
+	 ****  ***             Contentstack!
+	   ***  ****
 	     ** *****
 	        ****
 	       ***
 	      **
-	      
+
 Note: This version of Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
 
 Contentstack Command Line Interface 3.0.0

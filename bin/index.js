@@ -154,35 +154,6 @@ program
     });
   });
 
-program
-  .command('bulk-sync')
-  .option('-e, --env <environment>', 'Enter the environment of which the content needs to be synchronized', undefined)
-  .option('-t, --type [type]', 'Enter a type of content to include in publishing [content_types/assets/all]', /(content_types|assets|all)/, undefined)
-  .option('-l, --lang [language]', 'Enter the language of which the content needs to be synchronized', undefined)
-  .option('-c, --content_types [content_types]', 'Enter the content types to be included in synchronization (comma(\',\') seperated)', list, undefined)
-  .option('-s, --skip_content_types [skip_content_types]', 'Enter the content types to be excluded from synchronization (comma(\',\') seperated)', list, undefined)
-  .option('-d, --datetime [datetime]', 'Enter start date in ISO String format. Content published after this date will be synchronized (skip for all content)', undefined)
-  .option('-b, --backup [backup]', 'Enter backup option', /(yes|no|y|n)/i, undefined)
-  .description('Synchronize the previously published entries in the current application')
-  .action(function(options) {
-    setImmediate(function() {
-      var context = domain.create();
-      // error handling in domain
-      context.on('error', errorHandler);
-      // running the synchronization in domain
-      context.run(function() {
-        var _options = optionConversion(options);
-        _options = helper.merge(getDefaultOptions(options, options._events), _options);
-        try {
-          var bulkSync = require('./../lib/bulk-sync');
-          new bulkSync(_options);
-        } catch (error) {
-          console.error(error)
-        }
-      });
-    });
-  });
-
 /*
  * command for bulk publish
  * */
