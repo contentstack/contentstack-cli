@@ -93,8 +93,8 @@ $ contentstack plugin create YOUR_PLUGIN_NAME
 Once the plugin is created, you can activate it in config/all.js file.
 
 ## Links
- - [Website](https://www.built.io/products/contentstack/overview)
- - [Official Documentation](https://contentstackdocs.built.io/developer/web/framework-cli)
+ - [Website](https://www.contentstack.com/)
+ - [Official Documentation](https://www.contentstack.com/docs/)
 
 ### License
 Copyright © 2018 [Contentstack](https://www.contentstack.com/). All Rights Reserved.
