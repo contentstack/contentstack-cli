@@ -15,7 +15,7 @@
     "ncp": "2.0.0",
     "prompt": "1.0.0",
     "request": "2.88.0",
-    "resolve": "^1.8.1",
+    "resolve": "1.8.1",
     "debug": "4.1.0"
   },
   "description": "Contentstack Command Line Interface - CLI utility.",
@@ -41,7 +41,7 @@
   ],
   "name": "contentstack-cli",
   "readme": "./README.md",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "devDependencies": {
     "eslint": "5.9.0"
   }
