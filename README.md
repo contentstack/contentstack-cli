@@ -4,7 +4,7 @@
 
 ## Installation
 
-**Note**: The contentstack-express framework CLI will soon be deprecated. However, our new CLI has many utilities that will help you manage your Contentstack account from the command line. Check out our CLI documentation for more details and get started with using our new CLI.
+**Note**: The contentstack-express framework CLI will soon be deprecated. However, our new CLI has many utilities that will help you manage your Contentstack account from the command line. Check out our [CLI documentation](https://www.contentstack.com/docs/developers/cli) for more details and get started with using our new CLI.
 
 **Note**: This version of Contentstack CLI can be used only for v3 stacks. Use cli v1.x, for v2 stacks.
 
