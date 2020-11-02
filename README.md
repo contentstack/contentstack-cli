@@ -1,24 +1,26 @@
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
-# Contentstack command line interface(cli).
+**Note**: The contentstack-express command-line utility will soon be deprecated. We recommend you to check out our latest [CLI documentation](https://www.contentstack.com/docs/developers/cli) for performing content management activities.
+
+# contentstack-express Command-line Utility
 
 ## Installation
 
-**Note**: The contentstack-express framework CLI will soon be deprecated. However, our new CLI has many utilities that will help you manage your Contentstack account from the command line. Check out our [CLI documentation](https://www.contentstack.com/docs/developers/cli) for more details and get started with using our new CLI.
-
-**Note**: This version of Contentstack CLI can be used only for v3 stacks. Use cli v1.x, for v2 stacks.
+**Note**: This version of command-line utility can be used only for v3 stacks. Use command-line utility v1.x, for v2 stacks.
 
 
-Run the following command in a Terminal or Command Prompt to globally install the latest version of Contentstack CLI on your system:
+Run the following command in terminal or command prompt to globally install the latest version of contentstack-express command-line utility on your system:
 
 ```bash
 $ npm install -g contentstack-cli
 ```
 *You might need administrator privileges to perform this installation.*
 
-## Commands in CLI
+## Commands in contentstack-express command-line utility
 
-Contentstack CLI comes with handy commands which helps to achieve the support work for the contentstack-express like publishing, unpublishing, synchronizing the data, connecting existing stacks etc.
+The contentstack-express command-line utility offers a useful set of commands to help you achieve the support work for contentstack-express such as publishing, unpublishing, synchronizing the data, connecting existing stacks, and so on.
+
+Note: These commands are specific to only contentstack-express command-line utility.
 
 ```bash
 

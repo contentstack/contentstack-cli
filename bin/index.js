@@ -80,7 +80,7 @@ function optionConversion(options) {
 
 // printing the Contentstack Animation
 log(`\n ${messages}\n`);
-log(red('Note: ') + yellow('This version of Contentstack cli can be used only for v3 stacks. Use cli v1.x, for v2 stacks.\n'));
+log(red('Note: ') + yellow('This version of contentstack-express command-line utility can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.\n'));
 
 program
   .version(pkg.version || '0.1.x');
@@ -219,7 +219,7 @@ program.parse(process.argv);
 // show help by default if no args
 if (program.args.length == 0) {
   var message = [
-    'Contentstack CLI ' + pkg.version
+    'contentstack-express Command-line utility ' + pkg.version
     , '\nUsage: contentstack [command]'
     , '\nCommands available'
     , '    connect            Connect to an existing stack in Contentstack'
@@ -230,7 +230,7 @@ if (program.args.length == 0) {
     , '\nOptions:'
     , '    -h, --help     output usage information'
     , '    -V, --version  output the version number'
-    , '\nDocumentation can be found at https://www.contentstack.com/docs/'
+    , '\nDocumentation can be found at https://www.contentstack.com/docs/developers/about-web-framework'
   ].join('\n');
   log(magenta(`\n${message}\n`));
   process.exit(1);
