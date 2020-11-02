@@ -24,26 +24,27 @@ Note: These commands are specific to only contentstack-express command-line util
 
 ```bash
 
-	     **
+ 	     **
 	   ***
 	 ****
 	***** **
-	 ****  ***             Contentstack!
+	 ****  ***        Contentstack!
 	   ***  ****
 	     ** *****
 	        ****
 	       ***
 	      **
 
-Note: This version of Contentstack CLI can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
+Note: This version of contentstack-express command-line utility can be used only for V3 stacks. Use CLI version 1.x, for V2 stacks.
 
-Contentstack Command Line Interface 3.0.0
+
+contentstack-express Command-line utility 3.1.5
 
 Usage: contentstack [command]
 
-Commands:
+Commands available
     connect            Connect to an existing stack in Contentstack
-    sync               Synchronize all the published content locally
+    sync               Synchronize the previously published entries in the current application
     publish            Publish content-types/assets/both on specified environment
     unpublish          Unpublish content-types/assets/both on specified environment
     plugin create      Create the new plugin in the current application
@@ -52,7 +53,7 @@ Options:
     -h, --help     output usage information
     -V, --version  output the version number
 
-Documentation can be found at https://contentstackdocs.built.io/
+Documentation can be found at https://www.contentstack.com/docs/developers/about-web-framework
 ```
 ### Connect
 The connect command is used to connect to a existing stack. Navigate to a location on your computer and create a site development folder using the following command.
