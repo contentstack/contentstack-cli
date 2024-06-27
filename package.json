@@ -7,7 +7,7 @@
     "contentstack": "./bin/index.js"
   },
   "dependencies": {
-    "async": "2.6.1",
+    "async": "2.6.4",
     "chalk": "2.4.1",
     "commander": "2.9.0",
     "debug": "4.3.5",
