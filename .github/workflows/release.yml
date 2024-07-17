@@ -1,0 +1,51 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build and upload
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v3.7.0
+        with:
+          node-version: "18.x"
+      - name: Install dependencies
+        run: npm install
+      - name: Upload dist
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: lib
+          path: lib
+
+  release:
+    name: Download dist and release
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+        with:
+          fetch-depth: 0
+      - name: Download dist
+        uses: actions/download-artifact@v3
+        with:
+          name: lib
+          path: lib
+      - name: Display directories
+        run: ls -R lib
+      - name: Publish to npm
+        id: release-plugin
+        uses: JS-DevTools/npm-publish@v2.2.0
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+      - name: Create GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create v${{ steps.release-plugin.outputs.version }} --title "Release ${{ steps.release-plugin.outputs.version }}" --generate-notes
