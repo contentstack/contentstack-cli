@@ -1,6 +1,6 @@
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
-**Note**: The contentstack-express command-line utility will soon be deprecated. We recommend you to check out our latest [CLI documentation](https://www.contentstack.com/docs/developers/cli) for performing content management activities.
+**Note**: This package is deprecated and no longer maintained. Security updates are not supported. We recommend avoiding its use. We recommend viewing our latest [CLI documentation](https://www.contentstack.com/docs/developers/cli) for content management tasks.
 
 # contentstack-express Command-line Utility
 
